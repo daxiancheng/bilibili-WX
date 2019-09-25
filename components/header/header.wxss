@@ -1,0 +1,30 @@
+/* components/header/header.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+}
+.img-logo{
+  flex-grow: 6;
+}
+.search{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down{
+  flex-grow: 2;
+  background-color: #EE5E7B;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: white;
+}

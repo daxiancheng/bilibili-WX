@@ -1,0 +1,26 @@
+<view>
+<!-- 公共header -->
+  <header></header>
+  <!-- 导航 -->
+  <view>
+   <scroll-view class="scroll-wrap" scroll-x>
+      <view wx:for="{{navtablist}}" wx:key="{{index}}" class="scroll-item {{index === currentindex ? 'active':''}}"
+      bindtap="clicknav" data-cc="{{index}}"
+      >{{item}}</view>
+   </scroll-view>
+  </view>
+  <swiper current="{{currentindex}}" bindchange="changecurrent">
+     <swiper-item >
+        <view class="bg1">1</view>
+     </swiper-item>
+     <swiper-item>
+        <view class="bg2">2</view>
+     </swiper-item>
+     <swiper-item>
+        <view class="bg3">3</view>
+     </swiper-item>
+     <swiper-item>
+        <view class="bg4">4</view>
+     </swiper-item>
+  </swiper>
+</view>

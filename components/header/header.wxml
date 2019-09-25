@@ -1,0 +1,14 @@
+<view class="header">
+  <navigator class="img-logo">
+    <image src="../../icons/bilibili.png" mode="widthFix" style="width:140rpx"></image>
+  </navigator>
+  <view class="search">
+    <image src="../../icons/search.png" mode="widthFix" style="width:60rpx"></image>
+  </view>
+   <view class="user">
+    <image src="../../icons/user.png" mode="widthFix" style="width:54rpx"></image>
+  </view>
+  <view class="down">
+    下载 App
+  </view>
+</view>
